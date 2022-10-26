@@ -70,7 +70,7 @@ app.get('/ssl-request', async (req, res) => {
 app.post("/ssl-payment-notification", async (req, res) => {
 
   /** 
-  * If payment notification
+  * If payment notification have
   */
 
   return res.status(200).json(
@@ -84,7 +84,7 @@ app.post("/ssl-payment-notification", async (req, res) => {
 app.post("/ssl-payment-success", async (req, res) => {
 
   /** 
-  * If payment successful 
+  * If payment successfully done
   */
 
   return res.status(200).json(
